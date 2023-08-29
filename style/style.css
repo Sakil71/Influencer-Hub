@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Josefin+Sans&family=Qwitcher+Grypen:wght@700&display=swap');
+
+  body {
+      width: 80%;
+      margin: 10px auto;
+      font-family: 'ADLaM Display', cursive;
+  }
+
+  /* Navbar */
+
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .navbar>a {
+      font-size: 20px;
+  }
+
+  .navbar a {
+      text-decoration: none;
+  }
+
+  .navbar-text a,
+  i {
+      margin-right: 30px;
+  }
+
+  /*----------------
+            Banner
+     -------------------- */
+
+  .banner-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0 50px 0;
+      color: whitesmoke;
+      border-radius: 5px;
+      border-top-right-radius: 200px;
+      border-bottom-right-radius: 200px;
+      border-top-left-radius: 200px;
+      border-bottom-left-radius: 200px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+
+  .banner {
+      padding-left: 50px;
+  }
+
+  .button {
+      text-decoration: none;
+      background-color: #E02C6D;
+      color: whitesmoke;
+      border-radius: 10px;
+      padding: 5px 20px;
+  }
+
+  .banner-iamge {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 500px;
+  }
+
+  /* Logo */
+  .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+      padding: 20px 0;
+      box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC;
+  }
+
+  .logo div {
+      margin: 0 20px;
+  }
+
+  /* collection */
+  .collection-heading {
+      text-align: center;
+  }
+
+  .collection {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .collection-card {
+      box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+      padding: 10px;
+      border-radius: 5px;
+      height: 550px;
+      overflow: hidden;
+  }
+
+  .collection-card img {
+      width: 100%;
+  }
+
+  .name-price {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .rating {
+      display: flex;
+  }
+
+  .rating .filled {
+      color: rgb(220, 220, 15);
+  }
+
+  .rating .empty {
+      color: gray;
+  }
