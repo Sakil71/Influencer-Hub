@@ -84,6 +84,7 @@
       display: grid;
       gap: 10px;
       grid-template-columns: repeat(3, 1fr);
+      margin-bottom: 30px;
   }
 
   .collection-card {
@@ -92,6 +93,11 @@
       border-radius: 5px;
       height: 550px;
       overflow: hidden;
+  }
+
+  .collection-button {
+      text-align: end;
+      margin-bottom: 150px;
   }
 
   .collection-card img {
@@ -113,4 +119,26 @@
 
   .rating .empty {
       color: gray;
+  }
+
+  /* feature-container */
+
+  .feature-container {
+      display: flex;
+      column-gap: 80px;
+      align-items: center;
+      margin-bottom: 150px;
+  }
+
+  /* Footer */
+
+  .footer {
+      text-align: center;
+      background-color: black;
+      color: whitesmoke;
+      padding: 40px 0;
+  }
+
+  .footer h4 {
+      margin: 0;
   }
